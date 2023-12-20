@@ -1,24 +1,33 @@
-import logo from './logo.svg';
 import './App.css';
+import Atributo from './components/Atributo';
+import Elegirnos from './components/Elegirnos';
+import Ellos from './components/Ellos';
+import FooterSec from './components/FooterSec';
+import HeaderSec from './components/HeaderSec';
+import Jackpot from './components/Jackpot';
+import LanzaTu from './components/LanzaTu';
+import Luxury from './components/Luxury';
+import Mass from './components/Mass';
+import Nuestra from './components/Nuestra';
+import Platinum from './components/Platinum';
+import Silver from './components/Silver';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+    <HeaderSec />
+      <Nuestra/>
+      <Atributo/>
+      <Jackpot/>
+      <Elegirnos/>
+      <Mass/>
+      <Silver/>
+      <Luxury/>
+      <Platinum/>
+      <Ellos/>
+      <LanzaTu/>
+      <FooterSec/>
+      </>
   );
 }
 
