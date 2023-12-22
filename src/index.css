@@ -6,6 +6,6 @@
     background: #00141b;
     position: relative;
     z-index: 1 !important;
-    scroll-behavior: smooth;
+    scroll-behavior: smooth !important;
   }
 }

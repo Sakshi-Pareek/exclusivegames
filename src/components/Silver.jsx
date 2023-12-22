@@ -7,22 +7,45 @@ import CircleShade from "../assets/images/webp/shadow.webp";
 const Silver = () => {
   return (
     <>
-      <div className="max-w-[1140px] px-3 mx-auto">
-        <h2 className="text-center text-white text-5xl font-normal ff_anton sm:leading-[57.60px] mb-4">
+      <div className="max-w-[1140px] px-3 mx-auto" id="Ofertas">
+        <h2
+          className="text-center text-white text-5xl font-normal ff_anton sm:leading-[57.60px] mb-4"
+          data-aos="zoom-in"
+          data-aos-duration="500"
+          data-aos-delay="300"
+          data-aos-easing="linear"
+        >
           Nuestras ofertas
         </h2>
-        <p className="text-center text-white text-base font-medium ff_inter leading-relaxed">
+        <p
+          className="text-center text-white text-base font-medium ff_inter leading-relaxed"
+          data-aos="zoom-in"
+          data-aos-duration="500"
+          data-aos-delay="300"
+          data-aos-easing="linear"
+        >
           Te ofrecemos las mejores experiencias de juegos para tus clientes.
         </p>
-        <div className="border border-white border-opacity-50 rounded-2xl bg-silvertexture bg-cover bg-center pt-14 pb-8 lg:px-10 px-6 lg:mt-14 lg:mb-16 md:mb-16 md:mt-10 mb-12 mt-6">
+        <div
+          className="border border-white border-opacity-50 rounded-2xl bg-silvertexture bg-cover bg-center pt-14 pb-8 lg:px-10 px-6 lg:mt-14 lg:mb-16 md:mb-16 md:mt-10 mb-12 mt-6"
+          data-aos="flip-down"
+          data-aos-duration="800"
+          data-aos-delay="300"
+          data-aos-easing="linear"
+        >
           <div className="flex flex-wrap flex-row items-center md:justify-between justify-center md:gap-0 gap-10">
-            <div className="lg:w-7/12 md:w-6/12 sm:w-10/12">
+            <div className="lg:w-7/12 md:w-6/12 sm:w-10/12 relative">
+              <div className="w-[100px] h-[100px] opacity-75 bg-gradient-to-tl from-sky-400 to-green-300 rounded-full blur-[30px] absolute left-[20%] top-0 z-[-1]"></div>
               <img
                 src={SliverCardImg}
                 alt="SliverCardImg"
-                className="max-w-[650px] w-full mb-6"
+                className="max-w-[650px] w-full mb-6 drop-shadow-2xl"
               />
-              <img src={CircleShade} alt="CircleShade" className="max-w-[500px] w-full relative z-[-1] pr-10"/>
+              <img
+                src={CircleShade}
+                alt="CircleShade"
+                className="w-full relative z-[-1] pr-10 mix-blend-multiply bg-blend-multiply opacity-[0.1] blur-[12px] bg-black mx-auto"
+              />
             </div>
             <div className="lg:w-5/12 md:w-6/12 sm:w-10/12">
               <h3 className="text-white text-[32px] font-normal ff_anton lg:leading-[41.60px] lg:mb-4">
@@ -69,12 +92,12 @@ const Silver = () => {
                   Tiempo de creación 2 a 3 semanas
                 </li>
               </ul>
-              <div className="relative cursor-pointer ml-1">
+              <div className="relative cursor-pointer ml-1 group">
                 <a
                   href=""
-                  className="ff_inter text-base font-bold text-white rounded-[41px] border border-white border-solid py-[13px] px-[46px] inline-block"
+                  className="ff_inter text-base font-bold text-white rounded-[41px] border border-white border-solid py-[13px] px-[46px] inline-block group-hover:bg-white group-hover:text-black transition-all duration-300 ease-in-out"
                 >
-                 Comprar ahora
+                  Comprar ahora
                 </a>
                 <img
                   src={WhiteBtnBorder}

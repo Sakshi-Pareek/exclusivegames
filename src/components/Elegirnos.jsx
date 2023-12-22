@@ -4,10 +4,19 @@ import CasinoNight from "../assets/images/webp/casino-night.webp";
 
 const Elegirnos = () => {
   return (
-    <div className="md:bg-portexture xl:bg-full md:bg-cover max-md:bg-white md:bg-no-repeat">
+    <div
+      className="md:bg-portexture xl:bg-full md:bg-cover max-md:bg-white md:bg-no-repeat"
+      id="elegirnos"
+    >
       <div className="max-w-[1140px] px-3 mx-auto lg:py-64 md:py-48 sm:py-16 py-12">
         <div className="flex flex-wrap-reverse flex-row items-center md:justify-between justify-center md:gap-0 gap-8">
-          <div className="md:w-1/2 sm:w-10/12 w-full xl:pr-0 md:pr-10">
+          <div
+            className="md:w-1/2 sm:w-10/12 w-full xl:pr-0 md:pr-10"
+            data-aos="fade-right"
+            data-aos-duration="800"
+            data-aos-delay="300"
+            data-aos-easing="linear"
+          >
             <h2 className="text-slate-950 lg:text-5xl sm:text-4xl text-3xl font-normal ff_anton md:leading-[57.60px] lg:mb-4 mb-3">
               Por qué elegirnos
             </h2>
@@ -18,10 +27,10 @@ const Elegirnos = () => {
               interactivos que más pide la gente. Con Exclusive Games empezás a
               ganar ya! Creamos tu plataforma en solo 2 semanas.
             </p>
-            <div className="relative cursor-pointer">
+            <div className="relative cursor-pointer group">
               <a
                 href=""
-                className="px-[46px] py-[13px] bg-gradient-to-tl from-sky-400 to-green-300 rounded-[41px] text-slate-950 text-base font-bold ff_inter leading-relaxed inline-block"
+                className="px-[46px] py-[13px] bg-gradient-to-tl from-sky-400 to-green-300 rounded-[41px] text-slate-950 text-base font-bold ff_inter leading-relaxed inline-block group-hover:shadow-btn_gradient_shadow2 duration-300 ease-linear transition-all"
               >
                 Aprende más
               </a>
@@ -32,11 +41,17 @@ const Elegirnos = () => {
               />
             </div>
           </div>
-          <div className="md:w-1/2 sm:w-10/12 w-full">
+          <div
+            className="md:w-1/2 sm:w-10/12 w-full"
+            data-aos="zoom-in"
+            data-aos-duration="800"
+            data-aos-delay="300"
+            data-aos-easing="linear"
+          >
             <img
               src={CasinoNight}
               alt="CasinoNight"
-              className="rounded-2xl md:max-w-[558px] w-full mx-auto"
+              className="rounded-2xl md:max-w-[558px] w-full mx-auto  hover:scale-[0.98] transition-all duration-300 ease-linear cursor-pointer"
             />
           </div>
         </div>

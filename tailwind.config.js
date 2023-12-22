@@ -13,6 +13,11 @@ module.exports = {
       },
       backgroundSize: {
         'full': '100% 100%',
+      },
+      boxShadow: {
+        "btn_shadow": '2px 5px 10px #ffffff',
+        "btn_gradient_shadow2": '0px 3px 5px #5ED6CB',
+        "gradient_box": '4px 4px 5px #75F088',
       }
     },
   },

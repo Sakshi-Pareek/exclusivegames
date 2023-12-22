@@ -5,7 +5,9 @@ import { Facebook, Instagram, Linkedin, Message, TellIcon } from "./Icon";
 const FooterSec = () => {
   return (
     <>
-      <div className="bg-black">
+      <div className="bg-black relative">
+      <div className="w-[170px] h-[170px] opacity-90 bg-gradient-to-tl from-sky-400 to-green-300 rounded-full blur-[100px] absolute left-[-7%] bottom-[-10%] z-[0]"></div>
+      <div className="w-[170px] h-[170px] opacity-90 bg-gradient-to-tl from-sky-400 to-green-300 rounded-full blur-[100px] absolute right-[-7%] bottom-[25%] z-[0]"></div>
         <div className="max-w-[1140px] px-3 mx-auto md:py-16 py-12 ">
           <div className="flex flex-row flex-wrap justify-between">
             <div className="lg:w-4/12 sm:w-6/12 w-full">

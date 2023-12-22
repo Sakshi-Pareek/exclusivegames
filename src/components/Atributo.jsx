@@ -46,10 +46,16 @@ const Atributo = () => {
   ];
   return (
     <>
-      <div className="md:bg-atributotexture xl:bg-full md:bg-cover max-md:bg-white md:bg-no-repeat">
+      <div className="md:bg-atributotexture xl:bg-full md:bg-cover max-md:bg-white md:bg-no-repeat" id="tragamonedas">
         <div className="max-w-[1140px] px-3 mx-auto lg:py-60 md:py-40 sm:py-16 py-12">
           <div className="md:mb-36 sm:mb-28 mb-20">
-            <h2 className="text-slate-950 md:text-5xl sm:text-4xl text-3xl font-normal ff_anton md:leading-[57.60px] text-center lg:mb-14 md_mb-10 mb-8">
+            <h2
+              className="text-slate-950 md:text-5xl sm:text-4xl text-3xl font-normal ff_anton md:leading-[57.60px] text-center lg:mb-14 md_mb-10 mb-8"
+              data-aos="zoom-in"
+              data-aos-duration="800"
+              data-aos-delay="300"
+              data-aos-easing="linear"
+            >
               Nuestros Atributos de Marca
             </h2>
             <div className="flex flex-wrap flex-row md:justify-between justify-center pt-1 relative md:gap-0 gap-10">
@@ -63,9 +69,15 @@ const Atributo = () => {
                 alt="GradientArrowBottom"
                 className="absolute xl:max-w-[273px] lg:max-w-[200px] md:max-w-[170px] max-w-[150px] w-full xl:right-[19%] lg:right-[22%] top-[23%] md:right-[20%] md:block hidden"
               />
-              <div className="md:w-3/12">
+              <div
+                className="md:w-3/12"
+                data-aos="flip-left"
+                data-aos-duration="800"
+                data-aos-delay="300"
+                data-aos-easing="linear"
+              >
                 <div className="text-center">
-                  <div className="w-[100px] h-[100px] pl-[25.50px] pr-[26.50px] py-[26px] bg-green-300 bg-opacity-10 rounded-[73px] justify-center items-center inline-flex mb-4">
+                  <div className="w-[100px] h-[100px] pl-[25.50px] pr-[26.50px] py-[26px] bg-green-300 bg-opacity-10 rounded-[73px] justify-center items-center inline-flex mb-4 cursor-pointer group">
                     <Inteligencia />
                   </div>
                   <h3 className="text-center text-slate-950 sm:text-xl text-lg font-normal ff_anton leading-relaxed mb-2.5">
@@ -77,9 +89,15 @@ const Atributo = () => {
                   </p>
                 </div>
               </div>
-              <div className="md:w-3/12">
+              <div
+                className="md:w-3/12"
+                data-aos="flip-up"
+                data-aos-duration="800"
+                data-aos-delay="300"
+                data-aos-easing="linear"
+              >
                 <div className="text-center">
-                  <div className="w-[100px] h-[100px] pl-[25.50px] pr-[26.50px] py-[26px] bg-green-300 bg-opacity-10 rounded-[73px] justify-center items-center inline-flex mb-4 group">
+                  <div className="w-[100px] h-[100px] pl-[25.50px] pr-[26.50px] py-[26px] bg-green-300 bg-opacity-10 rounded-[73px] justify-center items-center inline-flex mb-4 group cursor-pointer">
                     <Proactividad />
                   </div>
                   <h3 className="text-center text-slate-950 sm:text-xl text-lg font-normal ff_anton leading-relaxed mb-2.5">
@@ -91,9 +109,15 @@ const Atributo = () => {
                   </p>
                 </div>
               </div>
-              <div className=" md:w-3/12">
+              <div
+                className=" md:w-3/12"
+                data-aos="flip-right"
+                data-aos-duration="800"
+                data-aos-delay="300"
+                data-aos-easing="linear"
+              >
                 <div className="text-center">
-                  <div className="w-[100px] h-[100px] pl-[25.50px] pr-[26.50px] py-[26px] bg-green-300 bg-opacity-10 rounded-[73px] justify-center items-center inline-flex mb-4">
+                  <div className="w-[100px] h-[100px] pl-[25.50px] pr-[26.50px] py-[26px] bg-green-300 bg-opacity-10 rounded-[73px] justify-center items-center inline-flex mb-4 cursor-pointer group">
                     <Innovación />
                   </div>
                   <h3 className="text-center text-slate-950 sm:text-xl text-lg font-normal ff_anton leading-relaxed mb-2.5">
@@ -107,7 +131,13 @@ const Atributo = () => {
               </div>
             </div>
           </div>
-          <div className="flex flex-col justify-center items-center">
+          <div
+            className="flex flex-col justify-center items-center"
+            data-aos="fade-down"
+            data-aos-duration="800"
+            data-aos-delay="300"
+            data-aos-easing="linear"
+          >
             <h4 className="text-center text-slate-950 md:text-5xl sm:text-4xl text-3xl font-normal ff_anton md:leading-[57.60px] mb-4">
               Slots
             </h4>
@@ -124,6 +154,10 @@ const Atributo = () => {
                 <div
                   className="md:w-4/12 sm:w-6/12 w-full md:p-3 p-2"
                   key={index}
+                  data-aos="flip-left"
+                  data-aos-duration="800"
+                  data-aos-delay="300"
+                  data-aos-easing="linear"
                 >
                   <div className="relative overflow-hidden rounded-lg group cursor-pointer">
                     <img
@@ -135,7 +169,7 @@ const Atributo = () => {
                       <div className="relative">
                         <a
                           href=""
-                          className="ff_inter text-base font-bold text-white rounded-[41px] border border-white border-solid py-[13px] px-[46px]"
+                          className="ff_inter text-base font-bold text-white rounded-[41px] border border-white border-solid py-[13px] px-[46px] leading-relaxed hover:bg-white hover:text-black transition-all duration-300 ease-in-out"
                         >
                           Jugar
                         </a>
@@ -150,18 +184,25 @@ const Atributo = () => {
                 </div>
               ))}
             </div>
-            <div className="relative cursor-pointer sm:mt-8 mt-4">
-              <a
-                href=""
-                className="px-[46px] py-[13px] bg-gradient-to-tl from-sky-400 to-green-300 rounded-[41px] text-slate-950 text-base font-bold ff_inter leading-relaxed inline-block"
-              >
-                Mostrar más
-              </a>
-              <img
-                src={BtnBorder}
-                alt="BtnBorder"
-                className="absolute max-w-[100px] w-100 bottom-[-7px] left-[-4px]"
-              />
+            <div
+              data-aos="fade-down"
+              data-aos-duration="800"
+              data-aos-delay="300"
+              data-aos-easing="linear"
+            >
+              <div className="relative cursor-pointer sm:mt-8 mt-4 group ">
+                <a
+                  href=""
+                  className="px-[46px] py-[13px] bg-gradient-to-tl from-sky-400 to-green-300 rounded-[41px] text-slate-950 text-base font-bold ff_inter leading-relaxed inline-block group-hover:shadow-btn_gradient_shadow2 duration-300 ease-linear transition-all"
+                >
+                  Mostrar más
+                </a>
+                <img
+                  src={BtnBorder}
+                  alt="BtnBorder"
+                  className="absolute max-w-[100px] w-100 bottom-[-7px] left-[-4px]"
+                />
+              </div>
             </div>
           </div>
         </div>
