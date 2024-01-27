@@ -54,14 +54,14 @@ const Ellos = () => {
                   <div className="relative group">
                     <a
                       href=""
-                      className="ff_inter text-base font-bold text-white rounded-[41px] border border-white border-solid py-[13px] px-[46px] hover:bg-white hover:text-black transition-all duration-300 ease-in-out"
+                      className="ff_inter text-base font-bold text-white rounded-[41px] border border-white border-solid py-[13px] px-[46px] hover:bg-white hover:text-black transition-all duration-300 ease-in-out inline-block relative z-[1]"
                     >
                       Rcasinovip
                     </a>
                     <img
                       src={WhiteBtnBorder}
                       alt="WhiteBtnBorder"
-                      className="absolute bottom-[-17px] left-[-5px] max-w-[104px]"
+                      className="absolute bottom-[-6px] left-[-4px] max-w-[104px] z-0"
                     />
                   </div>
                 </div>

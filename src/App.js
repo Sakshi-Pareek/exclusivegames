@@ -17,6 +17,7 @@ import Silver from "./components/Silver";
 import BackToTop from "./assets/images/webp/backtop.png"
 import Aos from 'aos';
 import "aos/dist/aos.css";
+// import { Accord } from './components/Accord';
 
 function App() {
   // ---------------------aos-------------------
@@ -25,14 +26,14 @@ function App() {
       duration: 1200,
       once: true,
     });
-  });
+  }, []);
   // -----------------preloader---------------
   const [screenLoading, setScreenLoading] = useState(false);
   useEffect(() => {
     setScreenLoading(true);
     setTimeout(() => {
       setScreenLoading(false);
-    }, 3000);
+    }, 4000);
   }, []);
   // -----------------back-to-top------------------
   const top = () => {
@@ -66,10 +67,11 @@ function App() {
             <Platinum />
             <Ellos />
             <Frecuentes />
+            {/* <Accord/> */}
             <LanzaTu />
             <FooterSec />
             <div>
-              <img src={BackToTop} alt="Arrow" className={`${backToTop ? "fixed right-[2%] bottom-[2%] z-30 !cursor-pointer md:w-[40px] w-[30px]" : "d-none"} bg-gradient-to-t from-sky-400 to-green-300 rounded-[50%] hover:shadow-btn_shadow transition-all duration-300 ease-linear`} onClick={() => top()} />
+              <img src={BackToTop} alt="Arrow" className={`${backToTop ? "fixed right-[1%] bottom-[2%] z-30 !cursor-pointer md:w-[45px] w-[30px]" : "d-none"} bg-[#1a555e] rounded-[50%] updown_animation`} onClick={() => top()} />
             </div>
           </div>
         </>

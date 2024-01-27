@@ -27,17 +27,17 @@ const Elegirnos = () => {
               interactivos que más pide la gente. Con Exclusive Games empezás a
               ganar ya! Creamos tu plataforma en solo 2 semanas.
             </p>
-            <div className="relative cursor-pointer group">
+            <div className="relative cursor-pointer hover:scale-[1.03] transition-all duration-300 ease-linear">
               <a
                 href=""
-                className="px-[46px] py-[13px] bg-gradient-to-tl from-sky-400 to-green-300 rounded-[41px] text-slate-950 text-base font-bold ff_inter leading-relaxed inline-block group-hover:shadow-btn_gradient_shadow2 duration-300 ease-linear transition-all"
+                className="px-[46px] py-[13px] bg-gradient-to-tl from-sky-400 to-green-300 rounded-[41px] text-slate-950 text-base font-bold ff_inter leading-relaxed inline-block"
               >
                 Aprende más
               </a>
               <img
                 src={BtnBorder}
                 alt="BtnBorder"
-                className="absolute max-w-[100px] w-100 bottom-[-7px] left-[-4px]"
+                className="absolute max-w-[100px] w-100 bottom-[-6px] left-[-3px]"
               />
             </div>
           </div>

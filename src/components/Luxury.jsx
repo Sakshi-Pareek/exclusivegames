@@ -92,10 +92,10 @@ const Luxury = () => {
               </span>
             </li>
           </ul>
-          <div className="relative cursor-pointer group">
+          <div className="relative cursor-pointer hover:scale-[1.03] transition-all duration-300 ease-linear">
             <a
               href=""
-              className="px-[46px] py-[13px] bg-gradient-to-tl from-sky-400 to-green-300 rounded-[41px] text-slate-950 text-base font-bold ff_inter leading-relaxed inline-block group-hover:shadow-btn_gradient_shadow2 transition-all duration-300 ease-linear"
+              className="px-[46px] py-[13px] bg-gradient-to-tl from-sky-400 to-green-300 rounded-[41px] text-slate-950 text-base font-bold ff_inter leading-relaxed inline-block"
             >
               Comprar ahora
             </a>

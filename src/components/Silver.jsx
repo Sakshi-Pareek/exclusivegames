@@ -1,6 +1,6 @@
 import React from "react";
 import SliverCardImg from "../assets/images/webp/game_circle.webp";
-import { DoubleTick } from "./Icon";
+import { DoubleTick, SpinnerShadow } from "./Icon";
 import WhiteBtnBorder from "../assets/images/webp/transparent_btn_border.webp";
 import CircleShade from "../assets/images/webp/shadow.webp";
 
@@ -44,7 +44,7 @@ const Silver = () => {
               <img
                 src={CircleShade}
                 alt="CircleShade"
-                className="w-full relative z-[-1] pr-10 mix-blend-multiply bg-blend-multiply opacity-[0.1] blur-[12px] bg-black mx-auto"
+                className="w-full relative z-[-1]"
               />
             </div>
             <div className="lg:w-5/12 md:w-6/12 sm:w-10/12">

@@ -169,14 +169,14 @@ const Atributo = () => {
                       <div className="relative">
                         <a
                           href=""
-                          className="ff_inter text-base font-bold text-white rounded-[41px] border border-white border-solid py-[13px] px-[46px] leading-relaxed hover:bg-white hover:text-black transition-all duration-300 ease-in-out"
+                          className="ff_inter text-base font-bold text-white rounded-[41px] border border-white border-solid py-[12px] px-[46px] leading-relaxed hover:bg-white hover:text-black transition-all duration-300 ease-in-out inline-block relative z-[1]"
                         >
                           Jugar
                         </a>
                         <img
                           src={WhiteBtnBorder}
                           alt="WhiteBtnBorder"
-                          className="absolute bottom-[-17px] left-[-5px] max-w-[104px]"
+                          className="absolute bottom-[-6px] left-[-4px] max-w-[104px] z-[0]"
                         />
                       </div>
                     </div>
@@ -190,17 +190,17 @@ const Atributo = () => {
               data-aos-delay="300"
               data-aos-easing="linear"
             >
-              <div className="relative cursor-pointer sm:mt-8 mt-4 group ">
+              <div className="relative cursor-pointer sm:mt-8 mt-4 hover:scale-[1.05] transition-all duration-300 ease-linear ">
                 <a
                   href=""
-                  className="px-[46px] py-[13px] bg-gradient-to-tl from-sky-400 to-green-300 rounded-[41px] text-slate-950 text-base font-bold ff_inter leading-relaxed inline-block group-hover:shadow-btn_gradient_shadow2 duration-300 ease-linear transition-all"
+                  className="px-[46px] py-[13px] bg-gradient-to-tl from-sky-400 to-green-300 rounded-[41px] text-slate-950 text-base font-bold ff_inter leading-relaxed inline-block"
                 >
                   Mostrar más
                 </a>
                 <img
                   src={BtnBorder}
                   alt="BtnBorder"
-                  className="absolute max-w-[100px] w-100 bottom-[-7px] left-[-4px]"
+                  className="absolute max-w-[100px] w-100 bottom-[-6px] left-[-3px]"
                 />
               </div>
             </div>

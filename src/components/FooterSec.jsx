@@ -6,8 +6,8 @@ const FooterSec = () => {
   return (
     <>
       <div className="bg-black relative">
-      <div className="w-[170px] h-[170px] opacity-90 bg-gradient-to-tl from-sky-400 to-green-300 rounded-full blur-[100px] absolute left-[-7%] bottom-[-10%] z-[0]"></div>
-      <div className="w-[170px] h-[170px] opacity-90 bg-gradient-to-tl from-sky-400 to-green-300 rounded-full blur-[100px] absolute right-[-7%] bottom-[25%] z-[0]"></div>
+        <div className="w-[170px] h-[170px] lg:opacity-90 opacity-50 bg-gradient-to-tl from-sky-400 to-green-300 rounded-full blur-[100px] absolute left-[-7%] bottom-[-10%] z-[0]"></div>
+        <div className="w-[170px] h-[170px] lg:opacity-90 opacity-50 bg-gradient-to-tl from-sky-400 to-green-300 rounded-full blur-[100px] absolute lg:right-[-7%] right-[-25%] bottom-[25%] z-[0]"></div>
         <div className="max-w-[1140px] px-3 mx-auto md:py-16 py-12 ">
           <div className="flex flex-row flex-wrap justify-between">
             <div className="lg:w-4/12 sm:w-6/12 w-full">
@@ -45,20 +45,45 @@ const FooterSec = () => {
                 <li className="text-white sm:text-base text-sm font-bold ff_inter mb-1 leading-relaxed">
                   Menú principal
                 </li>
-                <li className="opacity-80 text-white sm:text-base text-sm font-medium ff_inter leading-relaxed hover:opacity-100 transition-all duration-200 ease-linear hover:underline">
-                  <a href="">Hogar</a>
+                <li className="opacity-80 text-white sm:text-base text-sm font-medium ff_inter leading-relaxed hover:opacity-100 transition-all duration-200 ease-linear group">
+                  <a
+                    href=""
+                    className="after:w-0 after:h-[2px] after:bg-white after:absolute relative after:left-0 after:bottom-[-2px] group-hover:after:w-full after:duration-500 after:ease-in-out"
+                  >
+                    Hogar
+                  </a>
                 </li>
-                <li className="opacity-80 text-white sm:text-base text-sm font-medium ff_inter leading-relaxed hover:opacity-100 transition-all duration-200 ease-linear hover:underline">
-                  <a href="">Misión</a>
+                <li className="opacity-80 text-white sm:text-base text-sm font-medium ff_inter leading-relaxed hover:opacity-100 transition-all duration-200 ease-linear group">
+                  <a
+                    href=""
+                    className="after:w-0 after:h-[2px] after:bg-white after:absolute relative after:left-0 after:bottom-[-2px] group-hover:after:w-full after:duration-500 after:ease-in-out"
+                  >
+                    Misión
+                  </a>
                 </li>
-                <li className="opacity-80 text-white sm:text-base text-sm font-medium ff_inter leading-relaxed hover:opacity-100 transition-all duration-200 ease-linear hover:underline">
-                  <a href="">Tragamonedas</a>
+                <li className="opacity-80 text-white sm:text-base text-sm font-medium ff_inter leading-relaxed hover:opacity-100 transition-all duration-200 ease-linear group">
+                  <a
+                    href=""
+                    className="after:w-0 after:h-[2px] after:bg-white after:absolute relative after:left-0 after:bottom-[-2px] group-hover:after:w-full after:duration-500 after:ease-in-out"
+                  >
+                    Tragamonedas
+                  </a>
                 </li>
-                <li className="opacity-80 text-white sm:text-base text-sm font-medium ff_inter leading-relaxed hover:opacity-100 transition-all duration-200 ease-linear hover:underline whitespace-nowrap">
-                  <a href="">Por qué elegirnos</a>
+                <li className="opacity-80 text-white sm:text-base text-sm font-medium ff_inter leading-relaxed hover:opacity-100 transition-all duration-200 ease-linear group whitespace-nowrap">
+                  <a
+                    href=""
+                    className=" after:w-0 after:h-[2px] after:bg-white after:absolute relative after:left-0 after:bottom-[-2px] group-hover:after:w-full after:duration-500 after:ease-in-out"
+                  >
+                    Por qué elegirnos
+                  </a>
                 </li>
-                <li className="opacity-80 text-white sm:text-base text-sm font-medium ff_inter leading-relaxed hover:opacity-100 transition-all duration-200 ease-linear hover:underline">
-                  <a href="">Ofertas</a>
+                <li className="opacity-80 text-white sm:text-base text-sm font-medium ff_inter leading-relaxed hover:opacity-100 transition-all duration-200 ease-linear group">
+                  <a
+                    href=""
+                    className="after:w-0 after:h-[2px] after:bg-white after:absolute relative after:left-0 after:bottom-[-2px] group-hover:after:w-full after:duration-500 after:ease-in-out"
+                  >
+                    Ofertas
+                  </a>
                 </li>
               </ul>
             </div>
@@ -67,14 +92,29 @@ const FooterSec = () => {
                 <li className="text-white sm:text-base text-sm font-bold ff_inter mb-1 leading-relaxed">
                   Atención al cliente
                 </li>
-                <li className="opacity-80 text-white sm:text-base text-sm font-medium ff_inter leading-relaxed hover:opacity-100 transition-all duration-200 ease-linear hover:underline">
-                  <a href="">¿Necesitas ayuda?</a>
+                <li className="opacity-80 text-white sm:text-base text-sm font-medium ff_inter leading-relaxed hover:opacity-100 transition-all duration-200 ease-linear group">
+                  <a
+                    href=""
+                    className="after:w-0 after:h-[2px] after:bg-white after:absolute relative after:left-0 after:bottom-[-2px] group-hover:after:w-full after:duration-500 after:ease-in-out"
+                  >
+                    ¿Necesitas ayuda?
+                  </a>
                 </li>
-                <li className="opacity-80 text-white sm:text-base text-sm font-medium ff_inter leading-relaxed hover:opacity-100 transition-all duration-200 ease-linear hover:underline">
-                  <a href="">política de privacidad</a>
+                <li className="opacity-80 text-white sm:text-base text-sm font-medium ff_inter leading-relaxed hover:opacity-100 transition-all duration-200 ease-linear group">
+                  <a
+                    href=""
+                    className="after:w-0 after:h-[2px] after:bg-white after:absolute relative after:left-0 after:bottom-[-2px] group-hover:after:w-full after:duration-500 after:ease-in-out"
+                  >
+                    política de privacidad
+                  </a>
                 </li>
-                <li className="opacity-80 text-white sm:text-base text-sm font-medium ff_inter leading-relaxed hover:opacity-100 transition-all duration-200 ease-linear hover:underline">
-                  <a href="">Términos de servicios</a>
+                <li className="opacity-80 text-white sm:text-base text-sm font-medium ff_inter leading-relaxed hover:opacity-100 transition-all duration-200 ease-linear group">
+                  <a
+                    href=""
+                    className="after:w-0 after:h-[2px] after:bg-white after:absolute relative after:left-0 after:bottom-[-2px] group-hover:after:w-full after:duration-500 after:ease-in-out"
+                  >
+                    Términos de servicios
+                  </a>
                 </li>
               </ul>
             </div>
@@ -83,19 +123,27 @@ const FooterSec = () => {
                 <li className="text-white sm:text-base text-sm font-bold ff_inter mb-1 leading-relaxed">
                   Ponerse en contacto
                 </li>
-                <li className="opacity-80 text-white sm:text-base text-sm font-medium ff_inter leading-relaxed flex gap-2 items-center hover:opacity-100 transition-all duration-200 ease-linear hover:underline">
+                <li className="group flex gap-2 items-center">
                   <span>
                     <Message />
                   </span>
-                  <a href="mailto:juegosexclusivos@gmail.com">
+                  <a
+                    href="mailto:juegosexclusivos@gmail.com"
+                    className=" after:w-0 after:h-[2px] after:bg-white after:absolute relative after:left-0 after:bottom-[-2px] group-hover:after:w-full after:duration-500 after:ease-in-out opacity-80 text-white sm:text-base text-sm font-medium ff_inter leading-relaxed hover:opacity-100 transition-all duration-200 ease-linear"
+                  >
                     juegosexclusivos@gmail.com
                   </a>
                 </li>
-                <li className="opacity-80 text-white sm:text-base text-sm font-medium ff_inter leading-relaxed flex gap-2 items-center hover:opacity-100 transition-all duration-200 ease-linear hover:underline">
+                <li className="group flex gap-2 items-center">
                   <span>
                     <TellIcon />
                   </span>
-                  <a href="tel:(101)342-7873">(101)342-7873</a>
+                  <a
+                    href="tel:(101)342-7873"
+                    className="after:w-0 after:h-[2px] after:bg-white after:absolute relative after:left-0 after:bottom-[-2px] group-hover:after:w-full after:duration-500 after:ease-in-out opacity-80 text-white sm:text-base text-sm font-medium ff_inter leading-relaxed hover:opacity-100 transition-all duration-200 ease-linear"
+                  >
+                    (101)342-7873
+                  </a>
                 </li>
               </ul>
             </div>

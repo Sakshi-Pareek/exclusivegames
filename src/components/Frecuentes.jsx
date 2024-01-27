@@ -4,7 +4,7 @@ import { MinusIcon, PlusIcon } from "./Icon";
 const Frecuentes = () => {
   const [openIndex, setOpenIndex] = useState(null);
 
-  const handleToggle = (index) => {
+  const toggleAccordion = (index) => {
     setOpenIndex((prevIndex) => (prevIndex === index ? null : index));
   };
 
@@ -55,7 +55,7 @@ const Frecuentes = () => {
             >
               <div
                 className="flex justify-between sm:gap-20 gap-10 cursor-pointer"
-                onClick={() => handleToggle(index)}
+                onClick={() => toggleAccordion(index)}
               >
                 <div className="text-white md:text-xl sm:text-lg text-sm font-normal ff_anton sm:leading-relaxed">
                   {p.title}
@@ -64,14 +64,17 @@ const Frecuentes = () => {
                   {openIndex === index ? <MinusIcon /> : <PlusIcon />}
                 </div>
               </div>
-              {openIndex === index && (
-                <div className="overflow-hidden pt-2 opacity-80 text-white sm:text-base text-xs transition-all duration-300 ease-linear font-medium ff_inter leading-relaxed">
-                  {" "}
-                  En Exclusive Games, ofrecemos experiencias únicas y
-                  personalizadas, respaldadas por más de 15 años de dedicación
-                  al desarrollo de multiplataformas para juegos de azar.
-                </div>
-              )}
+              <div
+                className={`transition-max-h duration-300 overflow-hidden opacity-80 text-white sm:text-base text-xs transition-all !ease-linear font-medium ff_inter leading-relaxed ${
+                  openIndex === index
+                    ? "max-h-screen h-auto mt-2"
+                    : "max-h-0 overflow-hidden"
+                }`}
+              >
+                En Exclusive Games, ofrecemos experiencias únicas y
+                personalizadas, respaldadas por más de 15 años de dedicación al
+                desarrollo de multiplataformas para juegos de azar.
+              </div>
             </div>
           ))}
         </div>

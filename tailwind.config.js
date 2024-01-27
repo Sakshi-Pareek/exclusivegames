@@ -13,6 +13,7 @@ module.exports = {
       },
       backgroundSize: {
         'full': '100% 100%',
+        'fully': '100% 120%',
       },
       boxShadow: {
         "btn_shadow": '2px 5px 10px #ffffff',
